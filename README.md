@@ -1,15 +1,8 @@
-# Proyecto Integrador 3 desarrollado por Juan Carlos Pevé
-Simulador básico de un cotizador de seguros para el hogar 
+# React + Vite
 
-# Descripción del proyecto
-Este proyecto final se desarrollo para el curso de desarrollador frontend de UNTERF a través de Argentina Programa 4.0
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Tecnologías utilizadas:
-- HTML
-- Css + Styled Components
-- JavaScript
-- Fecht Data sobre la Api mockapi.io
-- LocalStorage
-- Integración de la librería Sweet Alert
-- Integración de la librería Tastify Js
-- Integración de la librería Milligram - Diseño de tables y botones
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
