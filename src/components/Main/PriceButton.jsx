@@ -1,3 +1,4 @@
+import  gif from "../../assets/img/Dual.gif"
 import React from "react";
 // Hook personalizado - Para realizar cálculos y guardar datos
 import useButtonLogic from "../../hooks/usePriceButton";
@@ -18,7 +19,7 @@ export default function PriceButton({ propiedad, ubicacion, metros2 }) {
     <>
       <Center>
         {mostrarGif ? (
-          <img src="./src/assets/img/Dual.gif" alt="Cargando..." width="50px" />
+          <img src={gif} alt="Cargando..." width="50px" />
         ) : (
           <button
             className="button button-outline"
