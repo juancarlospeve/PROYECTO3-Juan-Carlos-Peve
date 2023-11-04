@@ -18,7 +18,7 @@ export default function PriceButton({ propiedad, ubicacion, metros2 }) {
     <>
       <Center>
         {mostrarGif ? (
-          <img src="./assets/img/Dual.gif" alt="Cargando..." width="50px" />
+          <img src="./src/assets/img/Dual.gif" alt="Cargando..." width="50px" />
         ) : (
           <button
             className="button button-outline"
